@@ -86,4 +86,8 @@ nav.addEventListener("click", (a) =>{  //
 });                                                 //
 //----------------------------------------------------
 
-//-10-
+//-10-change font size on resize-----------------------
+const resize = document.querySelector('body');
+window.addEventListener('resize', () =>{
+    body.style.fontSize='55px';
+    });
